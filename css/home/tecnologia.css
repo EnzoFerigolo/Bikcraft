@@ -48,6 +48,9 @@
 }
 
 @media (max-width: 800px) {
+  .tecnologia-bg {
+    box-shadow: inset 0px -80px var(--cor-0)
+  }
   .tecnologia-conteudo { 
     padding-top: 60px;
     padding-bottom: 60px;

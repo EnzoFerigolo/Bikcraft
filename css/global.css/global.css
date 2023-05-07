@@ -4,7 +4,8 @@ h2,
 h3,
 ul,
 p,
-a {
+a,
+blockquote {
   margin: 0px;
 }
 
@@ -63,7 +64,7 @@ span {
   margin-top: 4px;
 }
 
-.link:hover{
+.link:hover {
   color: var(-cor-0);
 }
 
