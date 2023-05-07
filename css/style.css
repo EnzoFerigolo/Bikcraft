@@ -6,12 +6,16 @@
 /* Header */
 @import "/css/global.css/header.css";
 
+/* Footer */
+@import "/css/global.css/footer.css";
+
 /* Home */
 @import "/css/home/introducao.css";
 @import "/css/home/tecnologia.css";
 @import "/css/home/parceiros.css";
 @import "/css/home/depoimento.css";
 
+/* Seguros */
 @import "/css/seguros/seguros.css";
 
 /* Bicicletas */

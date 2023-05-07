@@ -34,6 +34,7 @@ span {
 }
 
 .btn {
+  max-width: max-content;
   padding: 16px 24px;
   display: inline-block;
   font-weight: bold;
@@ -46,6 +47,15 @@ span {
 
 .btn:hover {
   background: linear-gradient(180deg, #ffb60d 0%, #e59317 100%);
+}
+
+.btn.secundario {
+  background: var(--cor-10);
+  color: var(--cor-2);
+}
+
+.btn.secundario:hover {
+  background: var(--cor-9);
 }
 
 .link {
