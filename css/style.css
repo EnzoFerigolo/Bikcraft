@@ -17,6 +17,8 @@
 
 /* Seguros */
 @import "/css/seguros/seguros.css";
+@import "/css/seguros/vantagens.css";
+@import "/css/seguros/perguntas-frequentes.css";
 
 /* Termos */
 @import "/css/termos/termos.css";

@@ -5,7 +5,9 @@ h3,
 ul,
 p,
 a,
-blockquote {
+blockquote,
+dd,
+dl {
   margin: 0px;
 }
 
@@ -69,7 +71,7 @@ span {
   height: 10px;
   margin-left: 12px;
   background-image: url("/img/icones/seta.svg");
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .btn.seta:hover::after {
