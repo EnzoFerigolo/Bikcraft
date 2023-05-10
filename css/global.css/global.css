@@ -77,6 +77,32 @@ span {
   color: var(-cor-0);
 }
 
+.titulo-bg {
+  background-color: var(--cor-11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.titulo h1{
+  grid-column: 1/-1;
+}
+
+.titulo p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .titulo p {
+  font-size: 1rem;
+  font-weight: 400;
+  }
+}
+
+
 p {
   font-size: 1.5rem;
   line-height: 1.5;
