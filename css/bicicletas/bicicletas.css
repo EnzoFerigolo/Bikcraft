@@ -25,20 +25,20 @@
   border-radius: 4px 0 0 4px;
 }
 
-.bicicleta-conteudo {
+.bicicletas-conteudo {
   display: grid;
   grid-template-columns: 1fr auto;
   align-content: start;
   place-content: center;
 }
 
-.bicicleta-conteudo h2,
-.bicicleta-conteudo p {
+.bicicletas-conteudo h2,
+.bicicletas-conteudo p {
   grid-column: 1/-1;
   margin-bottom: 12px;
 }
 
-.bicicleta-conteudo h2::before {
+.bicicletas-conteudo h2::before {
   content: "";
   display: block;
   width: 12px;
@@ -78,7 +78,7 @@
     grid-template-columns: 1fr 1fr;
     margin-bottom: 32px;
   }
-  .bicicleta-conteudo {
+  .bicicletas-conteudo {
     grid-template-columns: 1fr;
   }
   .bicicletas a {

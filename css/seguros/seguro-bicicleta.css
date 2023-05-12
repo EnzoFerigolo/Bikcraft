@@ -1,0 +1,34 @@
+.seguro-bg {
+  background-color: var(--cor-11);
+  box-shadow: inset 0 120px #fff, inset 0 -120px #000;
+}
+
+.seguro-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.seguro-conteudo {
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.seguro h2 {
+  margin-bottom: 28px;
+}
+
+.seguro p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .seguro-conteudo {
+    padding: 0;
+    padding-bottom: 40px;
+  }
+  .seguro-bg {
+    background-color: var(--cor-11);
+    box-shadow: inset 0 120px #fff;
+  }
+}
