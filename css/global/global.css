@@ -44,6 +44,8 @@ span {
   border-radius: 5px;
   color: var(--cor-p5);
   text-transform: uppercase;
+  border: none;
+  cursor: pointer;
 }
 
 .btn:hover {
